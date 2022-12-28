@@ -1,18 +1,10 @@
 import React from 'react';
-import Head from 'next/head';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+import Main from '../components/layouts/main';
 
-export default function Home() {
-  return (
-    <div>
-      <Head>
-        <title>Create Next App</title>
-        <meta name={SITE_TITLE} content={SITE_DESCRIPTION} />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <h1 className="text-3xl font-mplus text-green-800">
-        Hello world!
-      </h1>
-    </div>
-  );
-}
+const Home = () => (
+  <Main>
+    <h1>Home</h1>
+  </Main>
+);
+
+export default Home;
