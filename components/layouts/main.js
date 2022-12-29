@@ -22,10 +22,8 @@ const Main = ({ children }) => (
       <meta property="og:image" content="https://pbs.twimg.com/profile_images/1545149127054475269/Y5LEA7cQ_400x400.jpg" />
       <title>Sidney Kaguli - Homepage</title>
     </Head>
-
     <Header />
-
-    <div className="pt-14 mx-auto max-w-3xl">
+    <div className="pt-14 mx-auto max-w-lg">
       {children}
     </div>
   </main>

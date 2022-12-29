@@ -9,7 +9,7 @@ const Header = () => (
     <div className="mx-auto max-w-3xl">
       <nav className="flex items-center gap-3 text-base">
         <a href="/" className="group">
-          <h2 className="font-semibold tracking-tighter p-2 font-mplus text-md">
+          <h2 className="font-medium tracking-tighter p-2 font-mplus text-md">
             Sidney Kaguli
           </h2>
         </a>
