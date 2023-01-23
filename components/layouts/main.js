@@ -23,7 +23,7 @@ const Main = ({ children }) => (
       <title>Sidney Kaguli - Homepage</title>
     </Head>
     <Header />
-    <div className="pt-14 mx-auto max-w-lg">
+    <div className="pt-14 mx-auto max-w-3xl">
       {children}
     </div>
   </main>

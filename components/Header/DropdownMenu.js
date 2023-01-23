@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import DropdownMenuItem from './DropdownMenuItem';
 
 const DropdownMenu = ({ tags }) => (
-  <Menu as="div" className="relative inline-block text-left">
+  <Menu as="div" className="relative inline-block md:hidden text-left">
     <div>
       <Menu.Button
         className="inline-flex justify-center rounded-md border border-zinc-400 dark:border-zinc-700 px-2 py-2 text-sm font-medium shadow-sm hover:bg-orange-200 dark:hover:bg-zinc-800 focus:outline-none transition-all"

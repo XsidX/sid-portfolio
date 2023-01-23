@@ -5,14 +5,14 @@ import DropdownMenu from './DropdownMenu';
 import ThemeToggle from './ThemeToggleButton';
 
 const Header = () => (
-  <header className="fixed w-full p-2 z-20 backdrop-blur-md">
-    <div className="mx-auto max-w-3xl">
+  <header className="fixed w-full p-2 z-20 md:p-4 backdrop-blur-md">
+    <div className="mx-auto max-w-4xl">
       <nav className="flex items-center gap-3 text-base">
-        <a href="/" className="group">
-          <h2 className="font-medium tracking-tighter p-2 font-mplus text-md">
+        <Link href="/" className="group">
+          <h2 className="font-bold">
             Sidney Kaguli
           </h2>
-        </a>
+        </Link>
         <div className="items-center gap-6 hidden md:flex">
           <Link href="/"> Works </Link>
           <Link
