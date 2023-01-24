@@ -5,7 +5,6 @@ const Projects = () => (
   <div className="flex flex-col gap-16">
     <Project />
     <Project />
-    <Project />
   </div>
 );
 
