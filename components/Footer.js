@@ -21,7 +21,9 @@ const Footer = () => (
         {' '}
         {new Date().getFullYear()}
         {' '}
-        Sidney Kaguli. All rights reserved.
+        Sidney Kaguli
+        <span className="ml-2" role="img" aria-label="laptop">💻. </span>
+        All rights reserved.
       </p>
     </div>
   </footer>

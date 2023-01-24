@@ -32,7 +32,7 @@ const Home = () => (
     </div>
     <section className="mt-6">
       <SectionHeading>Work</SectionHeading>
-      <p className="mb-6">
+      <p className="mb-6 dark:text-zinc-50 text-zinc-900">
         &nbsp;&nbsp;&nbsp;Sidney is a freelance and a full-stack developer based in Osaka with a
         passion for building digital services/stuff he wants. He has a knack
         for all things launching products, from planning and designing all the
@@ -51,9 +51,14 @@ const Home = () => (
         <SectionHeading overlay className="text-8xl text-center">Contact</SectionHeading>
         <ShadowBlock />
       </div>
-      <div className="flex flex-col justify-center items-center">
-        <p className="text-4xl"> And that&apos;s a wrap! </p>
-        <p className="text-4xl"> I look foward to chatting with you soon. </p>
+      <div className="flex flex-col gap-3 justify-center items-center text-zinc-50 text-4xl font-semibold">
+        <p> And that&apos;s a wrap! </p>
+        <p>
+          <span> I look foward to </span>
+          <span className="bg-clip-text text-transparent bg-gradient-to-b from-purple-200 to-purple-400">
+            chatting with you soon.
+          </span>
+        </p>
         <Link
           href="mailto:sidneykaguli@gmail.com"
           className="relative mt-6 bg-zinc-50 text-zinc-900 py-3 px-10 text-sm font-mplus font-semibold rounded-lg text-center shadow-md hover:shadow-zinc-200/20 hover:shadow-lg transition ease-in duration-100"
