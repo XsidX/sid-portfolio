@@ -56,13 +56,12 @@ const Home = () => (
         <p className="text-4xl"> I look foward to chatting with you soon. </p>
         <Link
           href="mailto:sidneykaguli@gmail.com"
-          className="relative mt-6 bg-zinc-50 text-zinc-900 py-2 px-10 text-sm font-mplus font-semibold rounded-lg text-center shadow-md hover:shadow-zinc-200/20 hover:shadow-lg transition ease-in duration-100"
+          className="relative mt-6 bg-zinc-50 text-zinc-900 py-3 px-10 text-sm font-mplus font-semibold rounded-lg text-center shadow-md hover:shadow-zinc-200/20 hover:shadow-lg transition ease-in duration-100"
         >
           Email Me
         </Link>
       </div>
     </section>
-
   </Layout>
 );
 

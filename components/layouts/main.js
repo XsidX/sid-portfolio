@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import PropTypes from 'prop-types';
 import Header from '../Header/Header';
+import Footer from '../Footer';
 
 const Main = ({ children }) => (
   <main className="pb-8 min-h-screen bg-orange-50 dark:bg-zinc-900 text-zinc-900 dark:text-zinc-300 break-words leading-6 transition-colors duration-500">
@@ -26,6 +27,7 @@ const Main = ({ children }) => (
     <div className="pt-14 mx-auto max-w-3xl">
       {children}
     </div>
+    <Footer />
   </main>
 );
 

@@ -12,6 +12,7 @@ module.exports = {
       },
       height: {
         project: '28rem',
+        line: '1px',
       },
     },
   },
