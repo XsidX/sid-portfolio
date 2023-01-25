@@ -15,7 +15,7 @@ const Home = () => (
 
     <div className="flex flex-col items-center md:flex-row">
       <div className="self-start">
-        <h2 className="text-3xl font-mplus text-zinc-900 dark:text-zinc-50">
+        <h2 className="text-3xl  font-semibold font-mplus text-zinc-900 dark:text-zinc-50 transition duration-500 ease-in-out">
           Sidney Kaguli
         </h2>
         <p> Digital Craftsman ( Designer / Developer ) </p>
@@ -32,7 +32,7 @@ const Home = () => (
     </div>
     <section className="mt-6">
       <SectionHeading>Work</SectionHeading>
-      <p className="mb-6 dark:text-zinc-50 text-zinc-900">
+      <p className="mb-6 dark:text-zinc-50 text-zinc-900 transition duration-500 ease-in-out">
         &nbsp;&nbsp;&nbsp;I am a freelance and a full-stack developer from Nairobi, Kenya
         with a passion for building digital services. He has a knack
         for all things launching products, from planning and designing all the
@@ -50,17 +50,17 @@ const Home = () => (
         <SectionHeading overlay className="text-4xl md:text-8xl text-center">Contact</SectionHeading>
         <ShadowBlock />
       </div>
-      <div className="flex flex-col md:gap-3 justify-center items-center text-zinc-50 md:text-4xl font-semibold">
+      <div className="flex flex-col md:gap-3 justify-center items-center text-zinc-900 dark:text-zinc-50 md:text-4xl font-semibold transition duration-500 ease-in-out">
         <p> And that&apos;s a wrap! </p>
         <p>
           <span> I look foward to </span>
-          <span className="bg-clip-text text-transparent bg-gradient-to-b from-purple-200 to-purple-400">
+          <span className="bg-clip-text text-transparent bg-gradient-to-b from-purple-400 to-purple-600 transition duration-500 ease-in-out">
             chatting with you soon.
           </span>
         </p>
         <Link
           href="mailto:sidneykaguli@gmail.com"
-          className="relative mt-6 bg-zinc-50 text-zinc-900 p-3 px-6 text-sm font-mplus rounded-lg shadow-md hover:shadow-zinc-200/20 hover:shadow-lg transition ease-in duration-100"
+          className="relative mt-6 bg-zinc-900 dark:bg-zinc-50 text-zinc-50 dark:text-zinc-900 p-3 px-6 text-sm font-mplus rounded-lg shadow-md hover:shadow-zinc-900/20 dark:hover:shadow-zinc-200/20 hover:shadow-lg transition ease-in duration-100"
         >
           Email Me
         </Link>
