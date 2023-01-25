@@ -9,16 +9,16 @@ import ShadowBlock from '../components/ShadowBlock';
 
 const Home = () => (
   <Layout>
-    <div className="rounded-lg mb-6 p-3 text-center bg-white dark:bg-zinc-800 backdrop-filter backdrop-blur-sm bg-opacity-50 dark:bg-opacity-50">
+    <div className="rounded-lg mb-6 p-3 text-center bg-white dark:bg-zinc-800 backdrop-filter backdrop-blur-sm bg-opacity-50 dark:bg-opacity-50 transition duration-500 ease-in-out">
       Hello, I&apos;m a full-stack web developer with a focus on remote work.
     </div>
 
-    <div className="flex flex-col md:flex-row">
-      <div className="">
+    <div className="flex flex-col items-center md:flex-row">
+      <div className="self-start">
         <h2 className="text-3xl font-mplus text-zinc-900 dark:text-zinc-50">
           Sidney Kaguli
         </h2>
-        <p> Full-Stack Web Developer ( Designer / Developer ) </p>
+        <p> Digital Craftsman ( Designer / Developer ) </p>
       </div>
       <div className="mt-4 md:mt-0 md:ml-6">
         <div className="border-gray-300 border-2 rounded-full w-24 h-24 inline-block overflow-hidden">
@@ -33,25 +33,24 @@ const Home = () => (
     <section className="mt-6">
       <SectionHeading>Work</SectionHeading>
       <p className="mb-6 dark:text-zinc-50 text-zinc-900">
-        &nbsp;&nbsp;&nbsp;Sidney is a freelance and a full-stack developer based in Osaka with a
-        passion for building digital services/stuff he wants. He has a knack
+        &nbsp;&nbsp;&nbsp;I am a freelance and a full-stack developer from Nairobi, Kenya
+        with a passion for building digital services. He has a knack
         for all things launching products, from planning and designing all the
-        way to solving real-life problems with code. When not online, he loves
-        hanging out with his camera. Currently, he is living off of his own
-        product called sid 123 has more than 100k subscribers.
+        way to solving real-life problems with code. With me on your team, you can be sure
+        that your product will be built with the best practises in mind and delivered on time.
       </p>
       <div className="relative">
-        <SectionHeading overlay className="text-8xl text-center">Projects</SectionHeading>
+        <SectionHeading overlay className="text-4xl md:text-8xl text-center">Projects</SectionHeading>
         <ShadowBlock />
       </div>
       <Projects />
     </section>
-    <section className="my-24">
+    <section className="my-12 md:my-24">
       <div className="relative">
-        <SectionHeading overlay className="text-8xl text-center">Contact</SectionHeading>
+        <SectionHeading overlay className="text-4xl md:text-8xl text-center">Contact</SectionHeading>
         <ShadowBlock />
       </div>
-      <div className="flex flex-col gap-3 justify-center items-center text-zinc-50 text-4xl font-semibold">
+      <div className="flex flex-col md:gap-3 justify-center items-center text-zinc-50 md:text-4xl font-semibold">
         <p> And that&apos;s a wrap! </p>
         <p>
           <span> I look foward to </span>
@@ -61,7 +60,7 @@ const Home = () => (
         </p>
         <Link
           href="mailto:sidneykaguli@gmail.com"
-          className="relative mt-6 bg-zinc-50 text-zinc-900 py-3 px-10 text-sm font-mplus font-semibold rounded-lg text-center shadow-md hover:shadow-zinc-200/20 hover:shadow-lg transition ease-in duration-100"
+          className="relative mt-6 bg-zinc-50 text-zinc-900 p-3 px-6 text-sm font-mplus rounded-lg shadow-md hover:shadow-zinc-200/20 hover:shadow-lg transition ease-in duration-100"
         >
           Email Me
         </Link>

@@ -5,7 +5,7 @@ import DropdownMenu from './DropdownMenu';
 import ThemeToggle from './ThemeToggleButton';
 
 const Header = () => (
-  <header className="fixed w-full p-2 z-20 md:p-4 backdrop-blur-md">
+  <header className="fixed w-full py-2 px-5 z-20 md:p-4 backdrop-blur-md dark:text-zinc-50">
     <div className="mx-auto max-w-4xl">
       <nav className="flex items-center gap-3 text-base">
         <Link href="/" className="group">
