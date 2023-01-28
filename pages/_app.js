@@ -13,7 +13,6 @@ function MyApp({ Component, pageProps, router }) {
     <Layout>
       <AnimatePresence
         exitBeforeEnter
-        initial={false}
         onExitComplete={() => {
           if (typeof window !== 'undefined') {
             window.scrollTo(0, 0);
