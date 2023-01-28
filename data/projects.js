@@ -33,8 +33,7 @@ const projects = [
     thumbnail: 'stokelys.jpeg',
     theme: 'cyan',
     type: 'default',
-    sourceUrl: 'https://github.com/XsidX/js-capstone-group',
-    liveUrl: 'https://xsidx.github.io/js-capstone-group/',
+    liveUrl: 'https://stokelys-interiors-omega.vercel.app/',
   },
 ];
 

@@ -31,18 +31,24 @@ const Project = ({ project }) => (
     <div className="row-span-1 col-span-6 md:col-span-1 z-40 px-6 flex flex-col justify-between my-5 md:my-10 text-zinc-50 font-mplus">
       <h2 className="font-semibold md:text-lg">{project.title}</h2>
       <div className="flex flex-col">
-        <Link href={project.liveUrl} target="_blank" className="text-right">
-          <button type="button" className="text-xs p-2 font-semibold text-zinc-50 hover:text-zinc-200 transition ease-in duration-100">
-            View Live Project
-            <span className="font-bold ml-1">
-              ↗
-            </span>
-          </button>
-        </Link>
+        {
+          project.sourceUrl && (
+            <Link href={project.liveUrl} target="_blank" className="text-right">
+              <button type="button" className="text-xs p-2 font-semibold text-zinc-50 hover:text-zinc-200 transition ease-in duration-100">
+                View Live Project
+                <span className="font-bold ml-1">
+                  ↗
+                </span>
+              </button>
+            </Link>
+          )
+        }
         <p className="font-mplus md:text-lg mb-4 md:mb-8">{project.description}</p>
-        <Link href={project.sourceUrl} target="_blank">
+        <Link href={project.sourceUrl ? project.sourceUrl : project.liveUrl} target="_blank">
           <button className={`relative self-start bg-zinc-50 ${txtColors[project.theme]} font-semibold p-3 text-xs rounded-lg text-center shadow-md hover:shadow-zinc-200/20 hover:shadow-lg transition ease-in duration-100`} type="button">
-            View Source Code
+            {
+              project.sourceUrl ? 'View Source Code' : 'View Live Project'
+            }
           </button>
         </Link>
       </div>
