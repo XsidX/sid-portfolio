@@ -20,7 +20,7 @@ export default function ThemeToggle() {
     if (prefersDarkMode) {
       return 'dark';
     }
-    return 'light';
+    return 'dark';
   });
 
   const toggleTheme = () => {
