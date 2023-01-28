@@ -10,6 +10,10 @@ module.exports = {
       fontFamily: {
         mplus: ["'M PLUS Rounded 1c'", 'Verdana', 'sans-serif'],
       },
+      height: {
+        project: '28rem',
+        line: '1px',
+      },
     },
   },
   plugins: [],
