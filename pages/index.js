@@ -30,7 +30,7 @@ const Home = () => {
 
   return (
     <Layout>
-      <div className="rounded-lg mb-6 p-3 text-center bg-white dark:bg-zinc-800 dark:text-zinc-100 backdrop-filter backdrop-blur-sm bg-opacity-50 dark:bg-opacity-50 transition duration-500 ease-in-out">
+      <div id="top" className="rounded-lg mb-6 p-3 text-center bg-white dark:bg-zinc-800 dark:text-zinc-100 backdrop-filter backdrop-blur-sm bg-opacity-50 dark:bg-opacity-50 transition duration-500 ease-in-out">
         Hello, I&apos;m a full-stack web developer with a focus on remote work.
       </div>
 
@@ -61,8 +61,8 @@ const Home = () => {
           that your product will be built with the best practises in mind and delivered on time.
         </p>
       </section>
-      <section className="mt-6">
-        <SectionHeading>What I can do</SectionHeading>
+      <section className="mt-6" id="works">
+        <SectionHeading>Skills</SectionHeading>
         <Skills />
       </section>
       <section className="mt-8">
@@ -73,6 +73,7 @@ const Home = () => {
         <Projects />
       </section>
       <motion.section
+        id="contact"
         className="my-12 md:my-24"
         ref={ref}
         initial="hidden"
