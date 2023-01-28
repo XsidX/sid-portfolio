@@ -28,7 +28,7 @@ const Footer = () => (
       <div className="hidden md:block absolute left-1/8 w- top-0 bottom-0 w-1/2 blur-md bg-orange-50 dark:bg-zinc-900 transition duration-500 ease-in-out" />
       <div className="hidden md:block absolute left-1/8 w- top-0 bottom-0 w-1/2 blur-lg bg-orange-50 dark:bg-zinc-900 transition duration-500 ease-in-out" />
       <div className="hidden md:block absolute left-1/8 w- top-0 bottom-0 w-1/2 blur-md bg-orange-50 dark:bg-zinc-900 transition duration-500 ease-in-out" />
-      <p className="text-sm text-zinc-900 dark:text-zinc-50 font-mplus z-10 transition duration-500 ease-in-out">
+      <p className="text-sm text-center text-zinc-900 dark:text-zinc-50 font-mplus z-10 transition duration-500 ease-in-out">
         &copy;
         {' '}
         {new Date().getFullYear()}
