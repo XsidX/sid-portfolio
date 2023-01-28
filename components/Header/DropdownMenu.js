@@ -1,8 +1,16 @@
 import { Menu, Transition } from '@headlessui/react';
+import Link from 'next/link';
+import { Link as ScrollLink } from 'react-scroll';
 import React, { Fragment } from 'react';
 import { IoMenu } from 'react-icons/io5/index';
 import PropTypes from 'prop-types';
 import DropdownMenuItem from './DropdownMenuItem';
+
+const scrollTarget = {
+  About: 'top',
+  Contact: 'contact',
+  Projects: 'works',
+};
 
 const DropdownMenu = ({ tags }) => (
   <Menu as="div" className="relative inline-block md:hidden text-left">
@@ -29,9 +37,45 @@ const DropdownMenu = ({ tags }) => (
           {tags.map((tag) => (
             <DropdownMenuItem
               key={tag}
-              href={`/${tag}`}
             >
-              {tag}
+              {
+                tag !== 'Resume' && tag !== 'View Source' && (
+                  <ScrollLink
+                    to={scrollTarget[tag] || 'top'}
+                    spy
+                    smooth
+                    className="block text-left"
+                  >
+                    {tag}
+                  </ScrollLink>
+                )
+              }
+
+              {
+                tag === 'Resume' && (
+                  <Link
+                    href="https://docs.google.com/document/d/1btaz3XeCDcBAyHtDCu0hQO2_E5L65bBoTJrepi6fip8/edit?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block text-left"
+                  >
+                    {tag}
+                  </Link>
+                )
+              }
+
+              {
+                tag === 'View Source' && (
+                  <Link
+                    href="https://github.com/XsidX/sid-portfolio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block text-left"
+                  >
+                    {tag}
+                  </Link>
+                )
+              }
             </DropdownMenuItem>
           ))}
         </div>

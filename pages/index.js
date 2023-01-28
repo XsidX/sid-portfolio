@@ -83,7 +83,7 @@ const Home = () => {
           <SectionHeading overlay className="text-4xl md:text-8xl text-center">Contact</SectionHeading>
           <ShadowBlock />
         </div>
-        <div className="flex flex-col md:gap-3 justify-center items-center text-zinc-900 dark:text-zinc-50 md:text-4xl font-semibold transition duration-500 ease-in-out">
+        <div className="flex flex-col md:gap-3 justify-center text-center items-center text-zinc-900 dark:text-zinc-50 md:text-4xl font-semibold transition duration-500 ease-in-out">
           <p> And that&apos;s a wrap! </p>
           <p>
             <span> I look foward to </span>

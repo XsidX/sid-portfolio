@@ -137,7 +137,7 @@ Project.propTypes = {
     thumbnail2: PropTypes.string,
     theme: PropTypes.string.isRequired,
     type: PropTypes.string.isRequired,
-    sourceUrl: PropTypes.string.isRequired,
+    sourceUrl: PropTypes.string,
     liveUrl: PropTypes.string.isRequired,
   }).isRequired,
 };

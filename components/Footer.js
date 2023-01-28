@@ -35,7 +35,7 @@ const Footer = () => {
         {
           socials.map((social) => (
             <Link href={social.link} key={social.name} target="_blank" rel="noopener noreferrer">
-              <button type="button" className="flex justify-center items-center py-4 md:py-0 md:h-14 md:w-32 text-sm font-semibold text-zinc-900 hover:text-teal-900 dark:text-zinc-100 font-mplus border border-zinc-500/70 dark:border-zinc-500/40 rounded-lg hover:bg-purple-900/5 dark:hover:bg-teal-900/10 dark:hover:text-teal-500 hover:border-teal-900/5 dark:hover:border-teal-900/10 transition duration-200 ease-in">
+              <button type="button" className="flex w-full justify-center items-center py-4 md:py-0 md:h-14 md:w-32 text-sm font-semibold text-zinc-900 hover:text-teal-900 dark:text-zinc-100 font-mplus border border-zinc-500/70 dark:border-zinc-500/40 rounded-lg hover:bg-purple-900/5 dark:hover:bg-teal-900/10 dark:hover:text-teal-500 hover:border-teal-900/5 dark:hover:border-teal-900/10 transition duration-200 ease-in">
                 {social.name}
               </button>
             </Link>
