@@ -9,6 +9,7 @@ import SectionHeading from '../components/SectionHeading';
 import Skills from '../components/Skills';
 import Projects from '../components/Projects';
 import ShadowBlock from '../components/ShadowBlock';
+import ProjectsHeading from '../components/ProjectsHeading';
 
 const Home = () => {
   const variants = {
@@ -62,14 +63,11 @@ const Home = () => {
         </p>
       </section>
       <section className="mt-6" id="works">
-        <SectionHeading>Skills</SectionHeading>
+        <SectionHeading>What I can do</SectionHeading>
         <Skills />
       </section>
       <section className="mt-8">
-        <div className="relative">
-          <SectionHeading overlay className="text-4xl md:text-8xl text-center">Projects</SectionHeading>
-          <ShadowBlock />
-        </div>
+        <ProjectsHeading />
         <Projects />
       </section>
       <motion.section
