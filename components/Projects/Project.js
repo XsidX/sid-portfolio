@@ -132,7 +132,6 @@ const Project = ({ project }) => {
 Project.propTypes = {
   project: PropTypes.shape({
     title: PropTypes.string.isRequired,
-    tag: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     thumbnail: PropTypes.string.isRequired,
     thumbnail2: PropTypes.string,

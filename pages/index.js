@@ -34,7 +34,7 @@ const Home = () => {
         Hello, I&apos;m a full-stack web developer with a focus on remote work.
       </div>
 
-      <div className="flex flex-col items-center md:flex-row">
+      <div className="flex flex-col items-center md:flex-row my-8 md:my-14">
         <div className="self-start text-zinc-900 dark:text-zinc-100 transition duration-500 ease-in-out">
           <h2 className="text-3xl  font-semibold font-mplus">
             Sidney Kaguli

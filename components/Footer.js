@@ -1,26 +1,19 @@
 import React from 'react';
+import Link from 'next/link';
+import socials from '../data/socials';
 
 const Footer = () => (
   <footer className="px-5 mx-auto md:max-w-4xl">
     <div className="flex flex-col md:flex-row justify-between gap-4 py-8">
-      <button type="button" className="flex justify-center items-center py-4 md:py-0 md:h-14 md:w-32 text-sm font-semibold text-zinc-900 hover:text-purple-800 dark:text-zinc-100 font-mplus border border-zinc-500/70 dark:border-zinc-500/40 rounded-lg hover:bg-purple-900/5 dark:hover:bg-purple-900/10 dark:hover:text-purple-500 hover:border-purple-900/5 dark:hover:border-purple-900/10 transition duration-200 ease-in">
-        Github
-      </button>
-      <button type="button" className="flex justify-center items-center py-4 md:py-0 md:h-14 md:w-32 text-sm font-semibold text-zinc-900 hover:text-purple-800 dark:text-zinc-100 font-mplus border border-zinc-500/70 dark:border-zinc-500/40 rounded-lg hover:bg-purple-900/5 dark:hover:bg-purple-900/10 dark:hover:text-purple-500 hover:border-purple-900/5 dark:hover:border-purple-900/10 transition duration-200 ease-in">
-        Linked In
-      </button>
-      <button type="button" className="flex justify-center items-center py-4 md:py-0 md:h-14 md:w-32 text-sm font-semibold text-zinc-900 hover:text-purple-800 dark:text-zinc-100 font-mplus border border-zinc-500/70 dark:border-zinc-500/40 rounded-lg hover:bg-purple-900/5 dark:hover:bg-purple-900/10 dark:hover:text-purple-500 hover:border-purple-900/5 dark:hover:border-purple-900/10 transition duration-200 ease-in">
-        Angel List
-      </button>
-      <button type="button" className="flex justify-center items-center py-4 md:py-0 md:h-14 md:w-32 text-sm font-semibold text-zinc-900 hover:text-purple-800 dark:text-zinc-100 font-mplus border border-zinc-500/70 dark:border-zinc-500/40 rounded-lg hover:bg-purple-900/5 dark:hover:bg-purple-900/10 dark:hover:text-purple-500 hover:border-purple-900/5 dark:hover:border-purple-900/10 transition duration-200 ease-in">
-        Twitter
-      </button>
-      <button type="button" className="flex justify-center items-center py-4 md:py-0 md:h-14 md:w-32 text-sm font-semibold text-zinc-900 hover:text-purple-800 dark:text-zinc-100 font-mplus border border-zinc-500/70 dark:border-zinc-500/40 rounded-lg hover:bg-purple-900/5 dark:hover:bg-purple-900/10 dark:hover:text-purple-500 hover:border-purple-900/5 dark:hover:border-purple-900/10 transition duration-200 ease-in">
-        Medium
-      </button>
-      <button type="button" className="flex justify-center items-center py-4 md:py-0 md:h-14 md:w-32 text-sm font-semibold text-zinc-900 hover:text-purple-800 dark:text-zinc-100 font-mplus border border-zinc-500/70 dark:border-zinc-500/40 rounded-lg hover:bg-purple-900/5 dark:hover:bg-purple-900/10 dark:hover:text-purple-500 hover:border-purple-900/5 dark:hover:border-purple-900/10 transition duration-200 ease-in">
-        Resume
-      </button>
+      {
+        socials.map((social) => (
+          <Link href={social.link} key={social.name} target="_blank" rel="noopener noreferrer">
+            <button type="button" className="flex justify-center items-center py-4 md:py-0 md:h-14 md:w-32 text-sm font-semibold text-zinc-900 hover:text-teal-900 dark:text-zinc-100 font-mplus border border-zinc-500/70 dark:border-zinc-500/40 rounded-lg hover:bg-purple-900/5 dark:hover:bg-teal-900/10 dark:hover:text-teal-500 hover:border-teal-900/5 dark:hover:border-teal-900/10 transition duration-200 ease-in">
+              {social.name}
+            </button>
+          </Link>
+        ))
+      }
     </div>
     <div className="relative flex justify-center my-8">
       {/* strike a line across the div */}
