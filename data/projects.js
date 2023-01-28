@@ -1,6 +1,7 @@
 const projects = [
   {
     title: 'My Spotify',
+    tag: 'ms',
     description: 'My Spotify is a web application that allows the to search for their favorite songs and artists. Built with React, Redux & Spotify Api.',
     thumbnail: 'mySpotify1.png',
     theme: 'orange',
@@ -10,6 +11,7 @@ const projects = [
   },
   {
     title: 'Pocketguard',
+    tag: 'pg',
     description: 'An app that allows the user to manage their finances by tracking their expenses per transaction category. Built with Rails.',
     thumbnail: 'pocketguard.png',
     theme: 'blue',
@@ -19,6 +21,7 @@ const projects = [
   },
   {
     title: 'Top Anime',
+    tag: 'ta',
     description: 'A web application that allows the user to like, comment and book reservations for their favorite anime. Built with JavaScript.',
     thumbnail: 'topAnime.png',
     thumbnail2: 'topAnime2.png',
@@ -29,6 +32,7 @@ const projects = [
   },
   {
     title: 'Stokelys',
+    tag: 'st',
     description: 'Landing page to attract clients to Stokelys interior design company. Built with Next.js, Tailwind CSS & Framer Motion.',
     thumbnail: 'stokelys.jpeg',
     theme: 'cyan',

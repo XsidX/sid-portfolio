@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Project from './Project';
 import projects from '../../data/projects';
 
@@ -11,5 +12,9 @@ const Projects = () => (
     }
   </div>
 );
+
+Projects.propTypes = {
+  ref: PropTypes.shape({}).isRequired,
+};
 
 export default Projects;
