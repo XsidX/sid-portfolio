@@ -49,7 +49,7 @@ export default function ThemeToggle() {
         onClick={toggleTheme}
         aria-label="Toggle theme"
       >
-        {theme === 'light' ? (
+        {theme === 'dark' ? (
           <SunIcon className="" />
         ) : (
           <MoonIcon className="" />
