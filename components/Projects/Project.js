@@ -56,7 +56,7 @@ const Project = ({ project }) => {
         objectFit="cover"
       />
       <div className="row-span-1 col-span-6 md:col-span-1 z-40 px-6 flex flex-col justify-between my-5 md:my-10 text-zinc-50 font-mplus">
-        <h2 className="font-semibold md:text-lg">{project.title}</h2>
+        <h2 className="font-semibold md:text-lg mb-6 md:mb-0">{project.title}</h2>
         <div className="flex flex-col">
           {
             project.sourceUrl && (

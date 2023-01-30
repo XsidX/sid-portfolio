@@ -2,7 +2,7 @@ const projects = [
   {
     title: 'My Spotify',
     tag: 'ms',
-    description: 'My Spotify is a web application that allows the to search for their favorite songs and artists. Built with React, Redux & Spotify Api.',
+    description: 'A web application that allows users to search for their favorite songs and artists. Built with React, Redux & Spotify Api.',
     thumbnail: 'mySpotify1.png',
     theme: 'orange',
     type: 'default',
@@ -12,7 +12,7 @@ const projects = [
   {
     title: 'Pocketguard',
     tag: 'pg',
-    description: 'An app that allows the user to manage their finances by tracking their expenses per transaction category. Built with Rails.',
+    description: 'An app that allows users to manage their finances by tracking their expenses per transaction category. Built with Rails & Hotwire.',
     thumbnail: 'pocketguard.png',
     theme: 'blue',
     type: 'absolute',
@@ -22,7 +22,7 @@ const projects = [
   {
     title: 'Top Anime',
     tag: 'ta',
-    description: 'A web application that allows the user to like, comment and book reservations for their favorite anime. Built with JavaScript.',
+    description: 'A web application that allows users to like, comment and book reservations for screening of their favorite anime. Built with JavaScript.',
     thumbnail: 'topAnime.png',
     thumbnail2: 'topAnime2.png',
     theme: 'green',
