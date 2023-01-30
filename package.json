@@ -9,10 +9,33 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@babel/core": "7.x",
+    "@babel/eslint-parser": "7.x",
+    "@babel/plugin-syntax-jsx": "7.x",
+    "@babel/preset-react": "7.x",
+    "@headlessui/react": "^1.7.7",
     "eslint": "8.29.0",
+    "eslint-config-airbnb": "18.x",
     "eslint-config-next": "13.0.6",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-react": "7.x",
+    "eslint-plugin-react-hooks": "4.x",
+    "framer-motion": "^8.5.4",
     "next": "13.0.6",
+    "prop-types": "^15.8.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "react-intersection-observer": "^9.4.1",
+    "react-scroll": "^1.8.9",
+    "stylelint-config-standard": "21.x",
+    "stylelint-csstree-validator": "1.x",
+    "stylelint-scss": "3.x"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4"
   }
 }
