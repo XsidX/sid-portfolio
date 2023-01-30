@@ -63,7 +63,7 @@ const Home = () => {
         </p>
       </section>
       <section className="mt-6" id="works">
-        <SectionHeading>What I can do</SectionHeading>
+        <SectionHeading>Skills</SectionHeading>
         <Skills />
       </section>
       <section className="mt-8">
@@ -80,7 +80,7 @@ const Home = () => {
         transition={{ duration: 0.7, type: 'ease' }}
       >
         <div className="relative">
-          <SectionHeading overlay className="text-4xl md:text-8xl text-center">Contact</SectionHeading>
+          <SectionHeading overlay className="text-5xl md:text-8xl text-center">Contact</SectionHeading>
           <ShadowBlock />
         </div>
         <div className="flex flex-col md:gap-3 justify-center text-center items-center text-zinc-900 dark:text-zinc-50 md:text-4xl font-semibold transition duration-500 ease-in-out">
