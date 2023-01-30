@@ -9,7 +9,7 @@ const socials = [
   },
   {
     name: 'Twitter',
-    link: 'https://twitter.com/sidneykaguli',
+    link: 'https://twitter.com/_sid_o',
   },
   {
     name: 'Medium',
