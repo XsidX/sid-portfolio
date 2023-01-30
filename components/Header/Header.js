@@ -16,12 +16,12 @@ const Header = () => (
         </ScrollLink>
         <div className="items-center gap-6 hidden md:flex">
           <ScrollLink to="works" spy smooth>
-            <button type="button" className="hover-underline-animation">
+            <button type="button" className="hover:underline underline-offset-4">
               Works
             </button>
           </ScrollLink>
           <ScrollLink to="contact" spy smooth>
-            <button type="button" className="hover-underline-animation">
+            <button type="button" className="hover:underline underline-offset-4">
               Contact
             </button>
           </ScrollLink>
@@ -29,7 +29,7 @@ const Header = () => (
             href="https://docs.google.com/document/d/1btaz3XeCDcBAyHtDCu0hQO2_E5L65bBoTJrepi6fip8/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover-underline-animation"
+            className="hover:underline underline-offset-4"
           >
             Resume
           </Link>
@@ -40,7 +40,7 @@ const Header = () => (
             className="flex items-center gap-2"
           >
             <IoLogoGithub />
-            <span className="hover-underline-animation">Source</span>
+            <span className="hover:underline underline-offset-4">Source</span>
           </Link>
         </div>
         <div className="flex-1" />
