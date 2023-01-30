@@ -56,7 +56,7 @@ const Home = () => {
         <SectionHeading>Work</SectionHeading>
         <p className="mb-6 dark:text-zinc-100 text-zinc-900 transition duration-500 ease-in-out">
           &nbsp;&nbsp;&nbsp;I am a freelance and a full-stack developer from Nairobi, Kenya
-          with a passion for building digital services. He has a knack
+          with a passion for building digital services. I have a knack
           for all things launching products, from planning and designing all the
           way to solving real-life problems with code. With me on your team, you can be sure
           that your product will be built with the best practises in mind and delivered on time.
