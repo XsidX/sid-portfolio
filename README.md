@@ -82,7 +82,7 @@ Here is the [live link](https://sid-portfolio.vercel.app/) of my portfolio.
 
 ### Clone-Locally
 
-- Enter this url: [https://github.com/okoyecharles/portfolio-v2](https://github.com/OkoyeCharles/portfolio-v2) in your web browser.
+- Enter this url: [https://github.com/XsidX/sid-portfolio](https://github.com/XsidX/sid-portfolio) in your web browser.
 - Once opened navigate to the top left level of the project a green code download button will be visible on the righthand side.
 - Select download Zip option from drop down menu.
 - Once the download is complete you will be able to access my project locally.
@@ -141,7 +141,7 @@ Don't forget to give the project a star! Thanks again!
 
 ## License
 
-Distributed under the [MIT](./LICENSE) License.
+Distributed under the [MIT](https://github.com/XsidX/sid-portfolio/blob/dev/MIT.md) License.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -149,14 +149,14 @@ Distributed under the [MIT](./LICENSE) License.
 
 ## Contact
 
-### Okoye Charles
+### Sidney Kaguli
 
  <div align="center">
- <a href="https://www.linkedin.com/in/charles-k-okoye/"><img src="https://img.shields.io/badge/linkedin-%230070f3.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin"></a> 
- <a href="https://twitter.com/okoyecharles_"><img src="https://img.shields.io/badge/Twitter-%230070f3.svg?style=for-the-badge&logo=Twitter&logoColor=white" alt="Twitter"></a> 
- <a href="https://github.com/OkoyeCharles/"><img src="https://img.shields.io/badge/github-%230070f3.svg?style=for-the-badge&logo=github&logoColor=white" alt="Github"></a> 
- <a href="https://angel.co/u/charles-k-okoye"><img src="https://img.shields.io/badge/AngelList-%230070f3.svg?style=for-the-badge&logo=AngelList&logoColor=white" alt="AngelList"></a> 
- <a href="mailto:okoyecharles509@gmail.com"><img src="https://img.shields.io/badge/Gmail-0070f3?style=for-the-badge&logo=gmail&logoColor=white" alt="Linkedin"></a>
+ <a href="https://www.linkedin.com/in/sidney-kaguli/"><img src="https://img.shields.io/badge/linkedin-%230070f3.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin"></a> 
+ <a href="https://twitter.com/_sid_o"><img src="https://img.shields.io/badge/Twitter-%230070f3.svg?style=for-the-badge&logo=Twitter&logoColor=white" alt="Twitter"></a> 
+ <a href="https://github.com/XsidX"><img src="https://img.shields.io/badge/github-%230070f3.svg?style=for-the-badge&logo=github&logoColor=white" alt="Github"></a> 
+ <a href="https://angel.co/sidney-kaguli"><img src="https://img.shields.io/badge/AngelList-%230070f3.svg?style=for-the-badge&logo=AngelList&logoColor=white" alt="AngelList"></a> 
+ <a href="mailto:sidneykaguli@gmail.com"><img src="https://img.shields.io/badge/Gmail-0070f3?style=for-the-badge&logo=gmail&logoColor=white" alt="Linkedin"></a>
  </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
