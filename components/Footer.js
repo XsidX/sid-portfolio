@@ -25,7 +25,7 @@ const Footer = () => {
   return (
     <footer className="px-5 mx-auto md:max-w-4xl">
       <motion.div
-        className="flex flex-col md:flex-row justify-between gap-4 py-8"
+        className="flex flex-col md:flex-row justify-between gap-4 py-8 flex-wrap"
         ref={ref}
         variants={variants}
         animate={controls}
