@@ -10,6 +10,7 @@ import Skills from '../components/Skills';
 import Projects from '../components/Projects';
 import ShadowBlock from '../components/ShadowBlock';
 import ProjectsHeading from '../components/ProjectsHeading';
+import Contact from '../components/Contact';
 
 const Home = () => {
   const variants = {
@@ -55,7 +56,7 @@ const Home = () => {
       <section className="mt-6">
         <SectionHeading>Work</SectionHeading>
         <p className="mb-6 dark:text-zinc-100 text-zinc-900 transition duration-500 ease-in-out">
-          &nbsp;&nbsp;&nbsp;I am a freelance and a full-stack developer from Nairobi, Kenya
+          &nbsp;&nbsp;&nbsp;I am a full-stack developer from Nairobi, Kenya
           with a passion for building digital services. I have a knack
           for all things launching products, from planning and designing all the
           way to solving real-life problems with code. With me on your team, you can be sure
@@ -91,12 +92,7 @@ const Home = () => {
               chatting with you soon.
             </span>
           </p>
-          <Link
-            href="mailto:sidneykaguli@gmail.com"
-            className="relative mt-6 bg-teal-900 text-zinc-50 p-3 px-6 text-sm font-mplus rounded-lg shadow-md hover:shadow-zinc-900/20 dark:hover:shadow-teal-200/20 hover:shadow-lg transition ease-in duration-100"
-          >
-            Email Me
-          </Link>
+          <Contact />
         </div>
       </motion.section>
     </Layout>
