@@ -54,7 +54,7 @@ const DropdownMenu = ({ tags }) => (
               {
                 tag === 'Resume' && (
                   <Link
-                    href="https://docs.google.com/document/d/1btaz3XeCDcBAyHtDCu0hQO2_E5L65bBoTJrepi6fip8/edit?usp=sharing"
+                    href="https://docs.google.com/document/d/1Fg2qQOS2DUQ9nt2wWuEzuwG4JHrVEiY85zPv2G2S0nA/edit?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block text-left"
