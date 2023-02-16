@@ -24,7 +24,7 @@ const ProjectsHeading = () => {
 
   return (
     <motion.div
-      className="relative"
+      className="relative mb-3"
       ref={ref}
       variants={variants}
       animate={controls}
