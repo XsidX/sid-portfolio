@@ -59,7 +59,7 @@ const Home = () => {
           with a passion for building digital services. I have a knack
           for all things launching products, from planning and designing all the
           way to solving real-life problems with code. With me on your team, you can be sure
-          that your product will be built with the best practises in mind and delivered on time.
+          that your product will be built with the best practices in mind and delivered on time.
         </p>
       </section>
       <section className="mt-6" id="works">
@@ -79,7 +79,7 @@ const Home = () => {
         variants={variants}
         transition={{ duration: 0.7, type: 'ease' }}
       >
-        <div className="relative">
+        <div className="relative mb-3">
           <SectionHeading overlay className="text-5xl md:text-8xl text-center">Contact</SectionHeading>
           <ShadowBlock />
         </div>
