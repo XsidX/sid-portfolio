@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { useAnimation, motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import Link from 'next/link';
 import Image from 'next/image';
 import Layout from '../components/layouts/article';
 import profilePic from '../public/me.jpg';
