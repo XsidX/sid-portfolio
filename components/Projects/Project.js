@@ -61,13 +61,20 @@ const Project = ({ project }) => {
           {
             project.sourceUrl && (
               <Link href={project.liveUrl} target="_blank" className="text-right">
-                <button type="button" className="text-xs p-2 font-semibold text-zinc-50 hover:text-zinc-200 transition ease-in duration-100">
+                <button type="button" className="text-xs p-2 font-bold text-white hover:underline underline-offset-4 decoration-zinc-300 transition ease-in duration-100">
                   View Live Project
                   <span className="font-bold ml-1">
                     ↗
                   </span>
                 </button>
               </Link>
+            )
+          }
+          {
+            !project.sourceUrl && (
+              <p className="text-right text-xs font-bold p-2 bg-clip-text text-transparent bg-gradient-to-r from-orange-50 to-teal-500">
+                Client Project
+              </p>
             )
           }
           <p className="font-mplus md:text-lg mb-4 md:mb-8">{project.description}</p>
