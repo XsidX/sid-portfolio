@@ -61,7 +61,7 @@ const Project = ({ project }) => {
           {
             project.sourceUrl && (
               <Link href={project.liveUrl} target="_blank" className="text-right">
-                <button type="button" className="text-xs p-2 font-semibold text-zinc-50 hover:text-zinc-200 transition ease-in duration-100">
+                <button type="button" className="text-xs p-2 font-bold text-white hover:underline underline-offset-4 decoration-zinc-300 transition ease-in duration-100">
                   View Live Project
                   <span className="font-bold ml-1">
                     ↗
