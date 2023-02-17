@@ -70,6 +70,13 @@ const Project = ({ project }) => {
               </Link>
             )
           }
+          {
+            !project.sourceUrl && (
+              <p className="text-right text-xs font-bold p-2 bg-clip-text text-transparent bg-gradient-to-r from-orange-50 to-teal-500">
+                Client Project
+              </p>
+            )
+          }
           <p className="font-mplus md:text-lg mb-4 md:mb-8">{project.description}</p>
           <Link href={project.sourceUrl ? project.sourceUrl : project.liveUrl} target="_blank">
             <button className={`relative self-start bg-zinc-50 ${txtColors[project.theme]} font-semibold p-3 text-xs rounded-lg text-center shadow-md hover:shadow-zinc-200/20 hover:shadow-lg transition ease-in duration-100`} type="button">
