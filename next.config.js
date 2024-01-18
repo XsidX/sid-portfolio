@@ -4,6 +4,7 @@ const nextConfig = {
   // basePath: '/public',
   images: {
     domains: ['framerusercontent.com'],
+    unoptimized: true,
   },
 };
 
